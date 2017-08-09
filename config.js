@@ -1,7 +1,7 @@
 module.exports = {
-    FB_PAGE_TOKEN: '',
-    FB_VERIFY_TOKEN: '',
-    API_AI_CLIENT_ACCESS_TOKEN: '',
-    FB_APP_SECRET: '',
-    SERVER_URL: "",
+    FB_PAGE_TOKEN: 'EAAXYug6vtOYBALjrCJJu7ZBNaGCO3ZBxblbUXzkpiRn9LOCZC8gpusZCPgsXFs4WA6Mrd96l9qeIi0sG52CEN97FCfwfeT0aB1AqWmbqZBVcNyZBIUx2EPFnsQpDjwJ7a9Fm3ltfxlwpGuAYKyyiU7IsfuMHYbMkJSbb6O2aY5zgZDZD',
+    FB_VERIFY_TOKEN: 'OllyWells',
+    API_AI_CLIENT_ACCESS_TOKEN: '87b02839d78a4bc19cfb50102da395f2',
+    FB_APP_SECRET: 'eacd1276eeb58dd620f5c51cb267d90e',
+    SERVER_URL: "https://ow1.herokuapp.com/",
 };
