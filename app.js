@@ -186,6 +186,8 @@ function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
 		default:
 			//unhandled action, just send back the text
+			int ollyvar = 1;
+			responseText += (responseText.valueOf(ollyvar));
 			sendTextMessage(sender, responseText);
 	}
 }
@@ -723,7 +725,7 @@ function receivedPostback(event) {
 	switch (payload) {
 		default:
 			//unindentified payload
-			sendTextMessage(senderID, "I'm not sure what you want. Can you be more specific?");
+			sendTextMessage(senderID, "I'm not sure what you want. Can you be more specific sir?");
 			break;
 
 	}
