@@ -184,9 +184,13 @@ function handleEcho(messageId, appId, metadata) {
 
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
+		case "olly":
+            sendTextMessage(sender, "hello2908");
+			break;
+
 		default:
 			//unhandled action, just send back the text
-            sendTextMessage(sender, "hello2908");
+            sendTextMessage(sender, "was");
 			//sendTextMessage(sender, responseText);
 	}
 }
