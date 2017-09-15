@@ -184,7 +184,7 @@ function handleEcho(messageId, appId, metadata) {
 
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
-		case "olly":
+		case "action-this-is-for-olly":
             sendTextMessage(sender, 'hello2908');
 			break;
 
