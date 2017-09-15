@@ -186,9 +186,8 @@ function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
 		default:
 			//unhandled action, just send back the text
-			int ollyvar = 1;
-			responseText += (responseText.valueOf(ollyvar));
-			sendTextMessage(sender, responseText);
+            sendTextMessage(sender, "hello2908");
+			//sendTextMessage(sender, responseText);
 	}
 }
 
